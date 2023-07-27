@@ -9,7 +9,7 @@ topic = "marvel"
 
 api_key = os.getenv("NEWSAPI_API_KEY")
 url = f"https://newsapi.org/v2/everything?q={topic}&" \
-      f"from=2023-06-27&sortBy=publishedAt&apiKey={api_key}" \
+      f"sortBy=publishedAt&apiKey={api_key}" \
       "&language=en"
 
 
